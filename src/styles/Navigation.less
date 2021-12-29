@@ -18,7 +18,7 @@
 }
 
 .navigation-control {
-    .clickable;
+    .clickable();
     border-bottom: @floating-element-border;
     width: @navigation-button-height;
     height: @navigation-button-height;
@@ -30,7 +30,7 @@
 }
 
 .navigation-control-last {
-    .navigation-control;
+    .navigation-control();
     border-bottom: 0;
 }
 
@@ -65,7 +65,7 @@
 @compass-gyro-diameter: @compass-diameter * 50 / 145;
 
 .compass {
-    .opaque-to-input;
+    .opaque-to-input();
     position: absolute;
     right: 0px;
     top: 100px;
