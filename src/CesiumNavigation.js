@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import "./styles/cesium-navigation.less"
-import { defined, Event, knockout, DeveloperError } from 'cesium'
+import { defined, Event, knockout, DeveloperError } from 'Cesium'
 import registerKnockoutBindings from './core/registerKnockoutBindings'
 import DistanceLegendViewModel from './viewModels/DistanceLegendViewModel'
 import NavigationViewModel from './viewModels/NavigationViewModel'
